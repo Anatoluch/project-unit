@@ -1,0 +1,266 @@
+/*--Шапка сайта--*/
+.header {
+  position: relative;
+  background-color: #4c5e5f;
+  background-image: url("../img/header/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  //Для планшета
+  @media (min-width: 768px) {
+    height: 568px;
+    min-height: auto;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    height: 870px;
+  }
+}
+/*--Эффект затемнения шапки--*/
+.header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*--/Шапка сайта--*/
+/*--Контейнер для содержимого шапки--*/
+.header__content {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 65px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-align: center;
+  //Для планшета
+  @media (min-width: 768px) {
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    position: relative;
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+}
+/*--/Контейнер для содержимого шапки--*/
+/*--Надпись (Лого) "Юнит" в центре шапки--*/
+.header__logo {
+  margin-bottom: 25px;
+  font-size: 62px;
+  letter-spacing: 12.4px;
+  position: relative;
+  line-height: 1;
+  text-transform: uppercase;
+  //Для планшета
+  @media (min-width: 768px) {
+    margin-bottom: 25px;
+    font-size: 82px;
+    line-height: 1.2;
+    letter-spacing: 16.4px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    margin-bottom: 45px;
+    left: 10px;
+    font-size: 96px;
+    letter-spacing: 19.2px;
+  }
+}
+/*--/Надпись (Лого) "Юнит" в центре шапки--*/
+/*--Слоган в центре шапки под "Юнит"--*/
+.header__desc {
+  max-width: 725px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+  font-weight: 500;
+  font-size: 16px;
+  //Для планшета
+  @media (min-width: 768px) {
+    margin-bottom: 70px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    max-width: 100%;
+    margin-bottom: 65px;
+    letter-spacing: 0.45px;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+}
+.header__desc p {
+  margin-bottom: 15px;
+}
+/*--/Слоган в центре шапки под "Юнит"--*/
+/*--Форма в центре шапки--*/
+.header__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //Дополнительная точка перелома 520px
+  @media (min-width: 520px) {
+    width: 490px;
+  }
+  //Для планшета
+  @media (min-width: 768px) {
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.header__form-input {
+  width: 100%;
+  margin-bottom: 10px;
+  //Для планшета
+  @media (min-width: 768px) {
+    width: 200px;
+    margin: 0 20px 0 0;
+  }
+}
+/*--Текстовые поля--*/
+.input {
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  &::placeholder {
+    color: #fff;
+  }
+  &:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
+/*--Кнопка "Начать триал"--*/
+.button-submit {
+  margin: 0;
+  width: 100%;
+  padding: 0 30px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: #50e3a4;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  transition: filter color 0.3s ease-in;
+  &:hover,
+  &:focus {
+    outline: none;
+    filter: invert(100%);
+    color: #000;
+  }
+}
+/*--/Форма в центре шапки--*/
+/*--Контейнер для кнопок "Меню" и "Поиск"--*/
+.header__top-buttons {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  //Для планшета
+  //Для десктопа
+  @media (min-width: 1200px) {
+    width: unset;
+  }
+}
+/*--/Контейнер для кнопок "Меню" и "Поиск"--*/
+/*--Кнопка "Меню"--*/
+.header__nav-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  //Для планшета
+  @media (min-width: 768px) {
+    top: 20px;
+    left: 20px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    top: 60px;
+    left: 70px;
+    right: auto;
+  }
+}
+/*--/Кнопка "Меню"--*/
+/*--Кнопка "Поиск"--*/
+.header__search-button {
+  display: none;
+  //Для планшета
+  @media (min-width: 768px) {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    //Для десктопа
+    @media (min-width: 1200px) {
+      top: 60px;
+      right: 70px;
+      left: auto;
+    }
+  }
+}
+/*--/Кнопка "Поиск"--*/
+/*--Кнопка "Скролл"--*/
+.header__scroll {
+  display: none;
+  //Для десктопа
+  @media (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 120px;
+    width: 32px;
+    height: 48px;
+    cursor: pointer;
+  }
+}
+/*--/Кнопка "Скролл"--*/

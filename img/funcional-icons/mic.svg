@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="41"
+   height="63"
+   viewBox="0 0 41 63"
+   version="1.1"
+   id="svg84"
+   sodipodi:docname="mic.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata88">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview86"
+     showgrid="false"
+     inkscape:zoom="8.5396825"
+     inkscape:cx="-2.0418216"
+     inkscape:cy="32.919691"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg84" />
+  <defs
+     id="defs62">
+    <clipPath
+       id="g8wia">
+      <path
+         fill="#fff"
+         d="M5.985 62.01H33.93"
+         id="path50" />
+    </clipPath>
+    <clipPath
+       id="g8wib">
+      <path
+         fill="#fff"
+         d="M20.978 50.949v11.079"
+         id="path53" />
+    </clipPath>
+    <clipPath
+       id="g8wic">
+      <path
+         fill="#fff"
+         d="M19.873 0h.254C26.684 0 32 5.316 32 11.873v17.254C32 35.684 26.684 41 20.127 41h-.254C13.316 41 8 35.684 8 29.127V11.873C8 5.316 13.316 0 19.873 0z"
+         id="path56" />
+    </clipPath>
+    <clipPath
+       id="g8wid">
+      <path
+         fill="#fff"
+         d="M.978 31.073s.69 19.923 19.515 19.923c18.824 0 19.502-20.002 19.502-20.002"
+         id="path59" />
+    </clipPath>
+  </defs>
+  <g
+     id="g82">
+    <g
+       id="g80">
+      <g
+         id="g66">
+        <path
+           fill="none"
+           stroke="#8ac249"
+           stroke-miterlimit="20"
+           stroke-width="4"
+           d="M5.985 62.01H33.93"
+           clip-path="url(&quot;#g8wia&quot;)"
+           id="path64" />
+      </g>
+      <g
+         id="g70">
+        <path
+           fill="none"
+           stroke="#8ac249"
+           stroke-miterlimit="20"
+           stroke-width="4"
+           d="M20.978 50.949v11.079"
+           clip-path="url(&quot;#g8wib&quot;)"
+           id="path68" />
+      </g>
+      <g
+         id="g74">
+        <path
+           fill="none"
+           stroke="#8ac249"
+           stroke-miterlimit="20"
+           stroke-width="4"
+           d="M19.873 0h.254C26.684 0 32 5.316 32 11.873v17.254C32 35.684 26.684 41 20.127 41h-.254C13.316 41 8 35.684 8 29.127V11.873C8 5.316 13.316 0 19.873 0z"
+           clip-path="url(&quot;#g8wic&quot;)"
+           id="path72" />
+      </g>
+      <g
+         id="g78">
+        <path
+           fill="none"
+           stroke="#8ac249"
+           stroke-miterlimit="20"
+           stroke-width="4"
+           d="M.978 31.073v0s.69 19.923 19.515 19.923c18.824 0 19.502-20.002 19.502-20.002v0"
+           clip-path="url(&quot;#g8wid&quot;)"
+           id="path76" />
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:#8ac249;fill-opacity:1;stroke:#8ac249;stroke-width:1.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 20.626699,49.660896 v 11.079"
+     id="path249" />
+  <path
+     style="fill:#8ac249;fill-opacity:1;stroke:#8ac249;stroke-width:1.76957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 7.7415056,60.253495 H 34.749703"
+     id="path1074" />
+</svg>

@@ -1,0 +1,135 @@
+.section__tasks {
+  position: relative;
+  margin: 0;
+  padding: 73px 0 45px;
+  overflow: hidden;
+  background-color: #fff;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 0;
+    left: 50%;
+    background-color: #a4eecb;
+    transform: translate(-50%, -50%) rotate(45deg);
+    //Для планшета
+    @media (min-width: 768px) {
+      display: none;
+    }
+    //Для десктопа
+    @media (min-width: 1200px) {
+      width: 187px;
+      height: 187px;
+      top: 50%;
+      left: 0;
+    }
+  }
+
+  //Для планшета
+  @media (min-width: 768px) {
+    padding: 65px 0 43px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    padding: 94px 0 20px;
+    border-bottom: 1px solid lightgray;
+  }
+}
+.container-tasks {
+  padding: 0 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  //Для планшета
+  @media (min-width: 768px) {
+    padding: 0 30px 0 29px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    padding: 0 150px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.card-tasks {
+  margin-bottom: 50px;
+  max-width: 440px;
+  text-align: center;
+
+  //Для планшета
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    padding-top: 22px;
+    max-width: 376px;
+    text-align: left;
+    align-self: flex-start;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    padding-top: 0;
+    max-width: unset;
+    width: 440px;
+    align-self: auto;
+  }
+}
+.card-tasks p {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+
+  //Для планшета
+  @media (min-width: 768px) {
+    line-height: 30px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+  }
+}
+.card-tasks__title {
+  margin-bottom: 33px;
+
+  //Для планшета
+  @media (min-width: 768px) {
+    margin-bottom: 37px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+  }
+}
+.card-tasks__header {
+  margin-bottom: 33px;
+
+  //Для планшета
+  @media (min-width: 768px) {
+    margin-bottom: 16px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    margin-bottom: 41px;
+  }
+}
+.img__tasks {
+  padding: 0 37px;
+  //Для планшета
+  @media (min-width: 768px) {
+    padding: 0;
+    max-width: 270px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    max-width: unset;
+  }
+}
+.img__tasks img {
+  max-width: 100%;
+  display: block;
+}

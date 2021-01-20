@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+/*--Контейнер--*/
+.container {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  //Для планшета
+  @media (min-width: 768px) {
+    max-width: unset;
+    width: 768px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+/*--/Контейнер--*/
+/*--Центрирующий контейнер--*/
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+/*--/Центрирующий контейнер--*/
+/*--Класс назначающий родителем для абсолютного позиционирования дочерних элементов--*/
+.relative {
+  position: relative;
+}
+.none {
+  display: none;
+}
+/*--/Класс назначающий родителем для абсолютного позиционирования дочерних элементов--*/
+.section-title {
+  color: #50e3a4;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+}
+.section-title.section-title--small {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+.section-header {
+  color: #2e2e2e;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  //Для планшета
+  @media (min-width: 768px) {
+    font-size: 42px;
+  }
+  //Для десктопа
+  @media (min-width: 1200px) {
+    font-size: 48px;
+  }
+}
